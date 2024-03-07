@@ -35,8 +35,7 @@ function CheckSea(e)
 end
 w = task.wait
 t = task
-local g =
-    loadstring(game:HttpGet "https://raw.githubusercontent.com/ic3w0lf22/Roblox-Account-Manager/master/RAMAccount.lua")(
+local g = loadstring(game:HttpGet "https://raw.githubusercontent.com/ic3w0lf22/Roblox-Account-Manager/master/RAMAccount.lua")(
 
 )
 TempleOfTimeCFrame =
@@ -1851,8 +1850,7 @@ function FastAttackConnectorFunction()
             end
         )
     end
-    gg5iihetiter9pihtr =
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/DichVuSpace/FunctionScriptTemp/main/FastAttackBananaOld2"))(
+    local gg5iihetiter9pihtr = loadstring(game:HttpGet("https://raw.githubusercontent.com/DichVuSpace/FunctionScriptTemp/main/FastAttackBananaOld2"))(
 
     )
     spawn(
@@ -1953,8 +1951,7 @@ function FastAttackConnectorFunction()
     )
     return ReturnFunctions
 end
-FastAttackConnector =
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DichVuSpace/FunctionScriptTemp/main/FastAttackBananaOld"))()
+local FastAttackConnector = loadstring(game:HttpGet("https://raw.githubusercontent.com/DichVuSpace/FunctionScriptTemp/main/FastAttackBananaOld"))()
 function AttackFunction()
     FastAttackConnector:Attack()
 end
