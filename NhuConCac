@@ -1,0 +1,15 @@
+function TienTiny(text)
+		local Notification = require(game.ReplicatedStorage.Notification)
+		local notification = Notification.new(text)
+		notification.Duration = 20
+		notification:Display()
+	end
+
+spawn(function()
+        while wait() do
+        wait(50)
+        TienTiny("<Color=Yellow>Website: RosieTeam.Net<Color=/>")
+        TienTiny("<Color=Blue>Chuyên Cung Cấp Mã Nguồn, Dịch Vụ Hosting., Tạo Trang Bio, Thiết Kế Website...<Color=/>")
+        TienTiny("<Color=Red>Hãy Truy Cập Ngay !<Color=/>")
+        end
+    end
